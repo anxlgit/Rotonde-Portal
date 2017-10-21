@@ -1,8 +1,13 @@
 {
   "name": "Anxl",
   "desc": "the devourer.",
-  "port": [],
+  "port": [
+    "dat://2f21e3c122ef0f2555d3a99497710cd875c7b0383f998a2d37c02c042d598485/",
+    "dat://223e4ab259fe5c8d622b52025be869f11a726091772f14ab3603d7182442c6eb/",
+    "dat://1860a5fd1ccae9e941c8778c8d6b9d642584c50f5b441a149bdae0e8ca91f633/"
+  ],
   "feed": [],
   "site": "http://anxl.faith",
-  "dat": "anxl"
+  "dat": "dat://40c388cb80691b8f79804e7977d2b9b1ffbd5d21aa4b45781eba37e6b9a0c50c/",
+  "client_version": "0.1.42"
 }

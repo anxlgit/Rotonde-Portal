@@ -1,5 +1,103 @@
 /* Add your user site custom css in this file. */
 
+@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400i');
+
 body {
-  font-family: 'Sorts Mill Goudy';
+  font-family: 'Sorts Mill Goudy', serif;
 }
+
+body #feed .entry .portal, body #portal #profile .name, body #feed .entry .message a {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-style: italic;
+  color: darkgray;
+}
+
+body #portal #activity > * {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+}
+
+body #portal #activity unit {
+  font-size: 10px;
+}
+
+body #portal #profile .name {
+  line-height: 20px;
+}
+
+body #operator {
+  background: lightgray;
+  color: black;
+}
+
+
+/*
+body { font-size:12px; font-family: 'input_mono_regular'; padding:30px; line-height:20px; background:#fcfcfc; }
+t { display:inline-block; }
+hr { clear:both; }
+
+body #portal { max-width: 200px; padding:60px 30px 30px 60px; position: fixed; top:0; bottom:0; left:0; overflow-x:auto;}
+body #portal #profile { margin-bottom: 45px }
+body #portal #profile .icon { margin-bottom: 30px }
+body #portal #profile .icon img { width:100px; height: 100px; display:block; }
+body #portal #profile .name { font-family: 'input_mono_medium'; display:block; line-height: 30px}
+body #portal #profile .desc { display:block; }
+body #portal #profile .site { display:block; color:#999; }
+body #portal #profile .site a:hover { text-decoration: underline; }
+body #portal #profile .port { display: block }
+body #portal #profile .feed { display:block; }
+
+body #portal #activity { display:block; margin-bottom:20px; }
+body #portal #activity > * {  width:50%; font-size:40px; font-family: 'din_regular' }
+body #portal #activity unit { display:block; font-size:11px; color:#aaa; line-height: 30px; padding:5px 0px; font-family: 'input_mono_regular' }
+body #portal #activity .portals.limit { color:#ccc; }
+
+body #portal #version { font-size:11px; color:#ccc; line-height: 20px; }
+
+body #portal .port_status { display:none; }
+body #portal .port_list { display:none; columns:2; overflow:hidden;}
+body #portal .port_list ln { display: block; font-size:11px; line-height: 20px;  }
+body #portal .port_list ln:hover { text-decoration: underline; cursor: pointer; }
+body #portal .port_list ln .undat { display:none;}
+body #portal .port_list ln.inactive a {color:#777;}
+body #portal .port_list ln.dead {color:#ccc;}
+body #portal .port_list ln.dead:hover { text-decoration: underline; cursor: pointer }
+body #portal:hover .port_list { display: block }
+
+body #feed { padding:0px 30px; width:calc(100vw - 420px); min-width: 300px; margin-left:240px; margin-top: 20px; max-width:600px;}
+body #feed .clear_filter:hover { cursor:pointer; text-decoration: underline; }
+body #feed .entry { border-bottom: 1px solid #ddd;padding: 10px 0px;line-height: 20px;padding-left: 100px;position: relative;padding-bottom: 20px; min-height:70px;}
+body #feed .entry:hover { background:#f4f4f4; }
+body #feed .entry:hover .tools { display:inline-block; }
+body #feed .entry .icon { width:60px; height:60px; display:block; float:left; margin-right:20px; position: absolute; left:15px; top:20px;}
+body #feed .entry .message { margin-top:5px; margin-right:15px; }
+body #feed .entry .message a { font-family: 'input_mono_medium'; }
+body #feed .entry .message b { font-family: 'input_mono_medium'; }
+body #feed .entry .message i { font-style: italic; }
+body #feed .entry .message del { text-decoration: line-through; }
+body #feed .entry .message.quote { padding:10px 20px; color:#777;}
+body #feed .entry .message.quote::before { content:">"; position: absolute; margin-left:-20px; }
+body #feed .entry .message .highlight { background: #000;padding: 0px 5px;color: #fff; }
+body #feed .entry .portal { font-family: 'input_mono_medium'; margin-right:15px; font-size:12px;  display:inline-block; margin-top:10px;}
+body #feed .entry .known_portal { display:inline-block;background: #f4f4f4;padding: 0px 5px;color: #000; }
+body #feed .entry .known_portal:hover { background:#000; color:white; }
+body #feed .entry .timestamp { color:#aaa; font-size:11px; margin-right:15px; }
+body #feed .entry .timestamp:hover { cursor:pointer; text-decoration: underline; }
+body #feed .entry .editstamp { color:#aaa; font-size:11px; }
+body #feed .entry .editstamp:hover { cursor:pointer; text-decoration: underline; }
+body #feed .entry .hashtag:hover { cursor:pointer; text-decoration: underline; }
+body #feed .entry .media { max-width: 100%; margin-top:15px; display:block; margin-bottom:15px; border-radius:4px; }
+body #feed .entry .tools { display:none; float:right; margin-right:15px; margin-top:10px; cursor:pointer; }
+body #feed .entry .tools > *:hover { text-decoration: underline; }
+
+body #feed .entry.whisper { background:black; color:white; }
+body #feed .entry.whisper .icon { filter: invert(100%) }
+
+body #operator { background: #111;width: calc(100vw - 420px);max-width: 600px;margin-left: 270px;margin-top: 40px;border-bottom: 1px solid #000; position: relative; }
+body #operator textarea { display: flex; color: white; width: 100%; align-content: center; height: 1em; resize: none; max-height: 70px; background: transparent; align-self: center; }
+body #operator textarea.drag { background: #b7b7b7; }
+body #operator textarea::-webkit-scrollbar { display: none; }
+body #operator #hint { line-height: 1em; color: #aaa; display: flex; margin-left: 5px; text-align: right; align-self: flex-end; white-space: nowrap; }
+body #operator #wrapper { overflow: hidden; min-height: 1em; display: flex; padding: 15px; background: transparent; color: white; font-size: 12px; }
+
+*/
