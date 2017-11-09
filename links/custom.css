@@ -2,9 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400i');
 
-body {
+body, body #feed #tabs, body #operator #wrapper {
   font-family: 'Sorts Mill Goudy', serif;
   background: white;
+}
+
+body, body #operator {
+  font-family: 'Sorts Mill Goudy', serif;
 }
 
 body #feed .entry .portal, body #portal #profile .name, body #feed .entry .message a {
@@ -13,22 +17,12 @@ body #feed .entry .portal, body #portal #profile .name, body #feed .entry .messa
   color: lightgray;
 }
 
-body #portal #activity > * {
-  font-family: 'Sorts Mill Goudy', serif;
-  font-size: 20px;
-}
-
 body #portal #activity unit {
   font-size: 10px;
 }
 
 body #portal #profile .name {
   line-height: 20px;
-}
-
-body #operator {
-  background: white;
-  color: black;
 }
 
 body #operator textarea {
